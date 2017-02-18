@@ -1,4 +1,4 @@
 baseurl = "https://mifistor.github.io/"
 languageCode = "ru"
 title = "mifistor.ru"
-theme = "hugo-theme-blueberry-detox"
+theme = "detox"
