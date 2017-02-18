@@ -2,3 +2,6 @@ baseurl = "https://mifistor.github.io/"
 languageCode = "ru"
 title = "mifistor.ru"
 theme = "detox"
+[Params]
+  Author = "Mikhail Dymskov"
+  disqusShortname = "mifistor"
