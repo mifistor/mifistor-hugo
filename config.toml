@@ -2,10 +2,10 @@ baseurl = "https://mifistor.github.io/"
 languageCode = "ru"
 title = "mifistor.ru"
 theme = "beautifulhugo"
+disqusShortname = "mifistor"
 
 [Params]
 #  Author = "Mikhail Dymskov"
-  disqusShortname = "mifistor"
   subtitle = "персональный блог"
   #logo = "img/avatar-icon.png"
   #favicon = "img/favicon.ico"
