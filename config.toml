@@ -1,7 +1,50 @@
 baseurl = "https://mifistor.github.io/"
 languageCode = "ru"
 title = "mifistor.ru"
-theme = "detox"
+theme = "beautifulhugo"
+
 [Params]
-  Author = "Mikhail Dymskov"
+#  Author = "Mikhail Dymskov"
   disqusShortname = "mifistor"
+  subtitle = "персональный блог"
+  #logo = "img/avatar-icon.png"
+  #favicon = "img/favicon.ico"
+  #commit = false
+
+[Author]
+  name = "Михаил Дымсков"
+  email = "mifistor@gmail.com"
+  facebook = "mifistor"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "mifistor"
+  twitter = "mifistor"
+
+[[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Обо мне"
+    url = "/page/about/"
+    weight = 3
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "/post/2016-03-08-code-sample"
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Test Markdown"
+#    url = "/post/2015-02-20-test-markdown"
+#
+#[[menu.main]]
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 3
