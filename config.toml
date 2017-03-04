@@ -3,6 +3,7 @@ languageCode = "ru"
 title = "mifistor.ru"
 theme = "beautifulhugo"
 disqusShortname = "mifistor"
+googleAnalytics = "UA-93024367-1"
 
 [Params]
 #  Author = "Mikhail Dymskov"
