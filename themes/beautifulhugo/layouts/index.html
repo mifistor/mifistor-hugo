@@ -44,12 +44,12 @@
               </a>
 
               <p class="post-meta">
-                Posted on {{ .Date.Format "January 2, 2006" }}
+                Написано <time datetime="{{ .Date.Format "01-02-2006 15:04:05" }}">{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.Months.months_rod .Date.Month }} {{.Date.Year}}</time>
               </p>
               <div class="post-entry">
               {{ if .Truncated }}
                 {{ .Summary }}
-                <a href="{{ .Permalink }}" class="post-read-more">[Read&nbsp;More]</a>
+                <a href="{{ .Permalink }}" class="post-read-more">[Читать&nbsp;дальше]</a>
               {{ else }}
                 {{ .Content }}
               {{ end }}
