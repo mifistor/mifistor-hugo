@@ -71,12 +71,12 @@
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
             <li class="previous">
-              <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; Newer Posts</a>
+              <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; Новые посты</a>
             </li>
             {{ end }}
             {{ if .Paginator.HasNext }}
             <li class="next">
-              <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">Older Posts &rarr;</a>
+              <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">Старые посты &rarr;</a>
             </li>
             {{ end }}
           </ul>
