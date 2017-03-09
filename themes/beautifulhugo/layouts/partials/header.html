@@ -13,7 +13,7 @@
       {{ end }}
       
       {{ if eq .Type "post" }}
-      <span class="post-meta">Posted on {{ .Date.Format "January 2, 2006" }}</span>
+      <span class="post-meta">Написано <time datetime="{{ .Date.Format "01-02-2006 15:04:05" }}">{{ .Site.Data.Strings.publishedon}} {{.Date.Day}} {{ index $.Site.Data.Months.months_rod .Date.Month }} {{.Date.Year}}</time></span>
       {{ end }}
         </div>
       </div>
