@@ -3,6 +3,8 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
           {{ .Content }}
+          <p><script type="text/javascript" src="/orphus.js"></script>
+          <a href="//orphus.ru" id="orphus" target="_blank"><img alt="Система Orphus" src="/img/orphus.gif" border="0" width="257" height="48" /></a></p>
       </article>
 
       <ul class="pager blog-pager">
@@ -35,7 +37,8 @@
     </div>
 </form>
 </div>
-<!--End mc_embed_signup--></p>
+<!--End mc_embed_signup-->
+</p>
       {{ if .Site.DisqusShortname }}
       <div class="disqus-comments">
         {{ template "_internal/disqus.html" . }}
