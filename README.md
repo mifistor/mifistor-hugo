@@ -1,3 +1,3 @@
 # mifistor-hugo
 
-It's my personal homepage write with hugogo.io
+It's my personal homepage write with gohugo.io
