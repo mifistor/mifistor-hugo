@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:mifistor/mifistor.github.io.git
+	url = git@github.com:mifistor/mifistor.github.io
 	branch = master
