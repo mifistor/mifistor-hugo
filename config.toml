@@ -4,6 +4,7 @@ title = "mifistor.ru"
 theme = "beautifulhugo"
 disqusShortname = "mifistor"
 googleAnalytics = "UA-93024367-1"
+enableInlineShortcodes = true
 
 [Params]
 #  Author = "Mikhail Dymskov"
