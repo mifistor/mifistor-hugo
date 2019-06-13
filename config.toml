@@ -31,6 +31,11 @@ enableInlineShortcodes = true
     url = "/page/about/"
     weight = 3
 
+[[menu.main]]
+    name = "Курсы для крестных родителей онлайн"
+    url = "/page/courses/"
+    weight = 4
+
 #[[menu.main]]
 #    identifier = "samples"
 #    name = "Samples"
